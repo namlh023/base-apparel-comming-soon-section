@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <main class="main">
+        <header class="header container">
+          <img class="logo" src="./images/logo.svg" alt="Base Apparel" />
+        </header>
+        <img
+          class="hero-image-mobile"
+          src="./images/hero-mobile.jpg"
+          alt=""
+          aria-hidden="true"
+        />
+        <div class="content container">
+          <h1 class="title"><span>We're </span>coming soon</h1>
+          <p class="subtitle">
+            Hello fellow shoppers! We're currently building our new fashion
+            store. Add your email below to stay up-to-date with announcements
+            and our launch deals.
+          </p>
+          <form class="form" novalidate>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email Address"
+              maxlength="100"
+            />
+            <button type="submit" aria-label="Submit">
+              <img src="./images/icon-arrow.svg" alt="" aria-hidden="true" />
+            </button>
+          </form>
+          <p class="error-text">Please provide a valid email</p>
+          <p class="success-text">Email submitted!</p>
+        </div>
+      </main>
+      <img
+        class="hero-image-desktop"
+        src="./images/hero-desktop.jpg"
+        alt=""
+        aria-hidden="true"
+      />
+    </div>
+    <script src="./js/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+:root {
+  --clr-text: hsl(0, 36%, 70%);
+  --clr-error: hsl(0, 93%, 68%);
+  --clr-heading: hsl(0, 6%, 24%);
+
+  --linear-button: linear-gradient(135deg, #f8bfbf 0%, #ee8b8b 100%);
+  --linear-background-mobile: linear-gradient(
+    150.03deg,
+    #ffffff 0%,
+    #fff4f4 84.51%
+  );
+  --linear-background-desktop: linear-gradient(
+    221.42deg,
+    #fff1f1 2.6%,
+    #ffffff 96.36%
+  );
+
+  --fs-text: 0.875rem;
+  --fs-heading: 2.5rem;
+
+  --lh-text: 1.375rem;
+  --lh-heading: 2.625rem;
+
+  --ff-primary: "Josefin Sans", sans-serif;
+
+  --fw-300: 300;
+  --fw-400: 400;
+  --fw-600: 600;
+
+  --letter-spacing: 0.78rem;
+  --border-radius: 1.75rem;
+
+  --display-error-icon: none;
+
+  @media (min-width: 90em) {
+    --fs-text: 1rem;
+    --fs-heading: 4rem;
+
+    --lh-text: 1.75rem;
+    --lh-heading: 4.4375rem;
+  }
+}
