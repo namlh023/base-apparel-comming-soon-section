@@ -72,15 +72,23 @@ body {
 .form {
   position: relative;
 
+  border-radius: var(--border-radius);
+  border: 0;
+  outline: 0.2rem solid var(--clr-text);
+
+  background: var(--linear-background-mobile);
+
+  &:focus-within {
+    outline: 0.2rem solid var(--clr-error);
+  }
+
   input {
-    width: 100%;
+    width: 65%;
     border-radius: var(--border-radius);
-    border: none;
-    outline: 0.2rem solid var(--clr-text);
-
+    border: 0;
     padding: 0.8em 1.4em;
-    background: var(--linear-background-mobile);
 
+    background: transparent;
     color: var(--clr-heading);
 
     &::placeholder {
@@ -90,7 +98,7 @@ body {
     }
 
     &:focus {
-      outline: 0.2rem solid var(--clr-error);
+      outline: 0;
     }
   }
 
